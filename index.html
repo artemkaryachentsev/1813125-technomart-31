@@ -12,8 +12,8 @@
         <img src="image" width="150" height="100" alt="Логотип Техномарт">
         </a>
         <form>
-         <input type="text" name="search" value="Поиск"> 
-        </form>> 
+         <input type="search" name="search" value="Поиск"> 
+        </form> 
         <a href="blank.html">Закладки</a>
         <a href="blank.html">Корзина</a>
         <a href="blank.html">Оформить заказ</a>
@@ -22,7 +22,7 @@
           строительных материалов 
           и инструментов для ремонта
         </p>
-        <a href="tel:+7 800 555-86-28">+7 800 555-86-28</a>
+        <a href="tel:+78005558628">+7 800 555-86-28</a>
         <p>г. Санкт-Петербург, наб. Реки Карповки, 5 лит П</p>
         <a href="blank.html">Войти</a>
         <a href="blank.html">Регистрация</a>
@@ -55,28 +55,25 @@
     </section>
 
     <section>
-
       <h2>ПЕРФОРАТОРЫ</h2>
       <h3>Настоящие мужские игрушки</h3>
       <a href="blank.html">ОТКРЫТЬ КАТАЛОГ</a>
-      <form>
-        <button type="button" value="Назад">Назад</button>
-        <button type="button" value="Вперед">Вперед</button>
-      </form>   
+    </section>  
 
-    </section> 
+    <button type="button">Назад</button>
+    <button type="button">Вперед</button>
 
     <section> 
-
       <h2>ДРЕЛИ</h2>
       <h3>Соседям на радость</h3>
       <a href="blank.html">ОТКРЫТЬ КАТАЛОГ</a>
-      <form>
-        <button type="button" value="Назад">Назад</button>
-        <button type="button" value="Вперед">Вперед</button>
-      </form>    
+    </section>  
 
-    </section>
+    <button type="button">Назад</button>
+    <button type="button">Вперед</button>
+          
+
+    
 
     <section>
       <h2>Скидки 50%</h2>
@@ -187,11 +184,11 @@
         Кредитные консультанты придут вам на помощь.</p>
       <a href="blank.html">ОТПРАВИТЬ ЗАЯВКУ></a>  
       
-      <form>
+      <div>
       <button type="button" value="Доставка">Доставка</button>
       <button type="button" value="Гарантия">Гарантия</button>
       <button type="button" value="Кредит">Кредит</button>
-      </form>    
+      </div>    
     
     </section>
 
@@ -224,26 +221,6 @@
       <a href="blank.html">ЗАБЛУДИЛИСЬ? НАПИШИТЕ НАМ!</a>
     </section>
 
-    <section id="modalmap">
-      <div style="position:relative;overflow:hidden;">
-        <a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Санкт‑Петербург</a>
-        <a href="https://yandex.ru/maps/2/saint-petersburg/house/naberezhnaya_reki_karpovki_5p/Z0kYdQZnSkAOQFtjfXV3eX9hZg==/?ll=30.318526%2C59.967740&utm_medium=mapframe&utm_source=maps&z=17.31" style="color:#eee;font-size:12px;position:absolute;top:14px;">Набережная реки Карповки, 5П — Яндекс.Карты</a>
-        <iframe src="https://yandex.ru/map-widget/v1/-/CCU47-un8C" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;">
-        </iframe></div>
-    </section>> 
-
-    <section id="modalfeedback">
-      <form>
-        <p>Ваше имя:</p>
-        <input type="text" name="name" value="Имя Фамилия">
-        <p>Ваш e-mail:</p>
-        <input type="email" name="email" value="email@example.com">
-        <p>Текст письма:</p>
-        <input type="text" name="text" value="В свободной форме"> 
-        <button type="button" value="sent">ОТПРАВИТЬ</button>
-
-      </form> 
-    </section>  
   </main>  
 
   <footer>
@@ -294,5 +271,27 @@
     </section>
 
   </footer>
+
+  <section id="modalmap">
+    <div style="position:relative;overflow:hidden;">
+      <a href="https://yandex.ru/maps/2/saint-petersburg/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Санкт‑Петербург</a>
+      <a href="https://yandex.ru/maps/2/saint-petersburg/house/naberezhnaya_reki_karpovki_5p/Z0kYdQZnSkAOQFtjfXV3eX9hZg==/?ll=30.318526%2C59.967740&utm_medium=mapframe&utm_source=maps&z=17.31" style="color:#eee;font-size:12px;position:absolute;top:14px;">Набережная реки Карповки, 5П — Яндекс.Карты</a>
+      <iframe src="https://yandex.ru/map-widget/v1/-/CCU47-un8C" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;">
+      </iframe></div>
+  </section>> 
+
+  <section id="modalfeedback">
+    <form>
+      <p><label for="name">Ваше имя:</label></p>
+      <input type="text" name="name" id="name" value="Имя Фамилия">
+      <p><label for="email">Ваш e-mail:</label></p>
+      <input type="email" name="email" id="email" value="email@example.com">
+      <p><label for="feedback">Текст письма:</label></p>
+      <textarea name="feedback" id="feedback" value="В свободной форме">В свободной форме</textarea> 
+      <button type="submit" value="sent">ОТПРАВИТЬ</button>
+
+    </form> 
+  </section>  
+
   </body>
 </html>
