@@ -24,8 +24,10 @@
         </p>
         <a href="tel:+78005558628">+7 800 555-86-28</a>
         <p>г. Санкт-Петербург, наб. Реки Карповки, 5 лит П</p>
-        <a href="blank.html">Войти</a>
-        <a href="blank.html">Регистрация</a>
+        <a href="blank.html">Равшан Джамшутович</a>
+        <a href="blank.html">Выйти</a>
+        <a href="blank.html">Мои заказы</a>
+        <a href="blank.html">Личный кабинет</a>
         <ul>
           <li><a href="blank.html">Главная</a></li>
           <li><a href="blank.html">Компания</a></li>
@@ -40,26 +42,22 @@
   <main>
   
     
-    <a href="index.html">
-        <img src="image" width="14" height="12" alt="homeicon">
-    </a>
-    <img src="image" width="8" height="12" alt="icon-right-small"> 
+    <a href="index.html"></a>
     <a href="blank.html">КАТАЛОГ</a>
-    <img src="image" width="8" height="12" alt="icon-right-small"> 
     <a href="blank.html">ИНСТРУМЕНТ</a>
-    <img src="image" width="8" height="12" alt="icon-right-small"> 
     <a href="catalog.html">ПЕРФОРАТОРЫ</a>
  
     <h1>ПЕРФОРАТОРЫ</h1> 
-    
-    <h2>ФИЛЬТР</h2>
-    <p>ЦЕНА:</p>
-
-        <input type="range" min="0" max="40000" step="100" value="30000">
-        <p>0</p> - <p>30000</p>
-    
 
     <form method="get" action="https://echo.htmlacademy.ru">
+
+        <h2>ФИЛЬТР</h2>
+        <p>ЦЕНА:</p>
+    
+            <input type="range" min="0" max="40000" step="100" value="30000">
+            <p>0</p> - <p>30000</p>
+    
+
         <fieldset>
             <legend>ПРОИЗВОДИТЕЛИ</legend>
             <ul>
@@ -91,12 +89,12 @@
             <legend>ПИТАНИЕ</legend>
             <ul>
                 <li>
-                    <input type="radio" name="accumulator" id="filter-accumulator" checked>
+                    <input type="radio" name="powertype" value="filter-accumulator" id="filter-accumulator" checked>
                     <label for="filter-accumulator">АККУМУЛЯТОРНЫЕ</label>
                 </li>
 
                 <li>
-                    <input type="radio" name="mainssupply" id="filter-mainssupply">
+                    <input type="radio" name="powertype" value="filter-mainssupply" id="filter-mainssupply">
                     <label for="filter-mainssupply">СЕТЕВЫЕ</label>
                 </li>
             </ul>    
@@ -111,7 +109,7 @@
             <p>СОРТИРОВКА:</p>
         </li>
         <li>
-            <p>ПО ЦЕНЕ</p>
+            <a href="#">ПО ЦЕНЕ</a>
         </li>
         <li>
             <a href="#">ПО ТИПУ</a>
@@ -120,14 +118,10 @@
             <a href="#">ПО ФУНКЦИОНАЛУ</a>
         </li> 
         <li>
-            <a href="#">
-                <img src="#" width="11" height="10" alt="arrow-up">
-            </a>
+            <a href="#">По возрастанию</a>
         </li>
         <li>
-            <a href="#">
-                <img src="#" width="11" height="10" alt="arrow-down">
-            </a>
+            <a href="#">По убываюнию</a>
         </li>
 
     </ul>
@@ -147,8 +141,7 @@
         </li>
         <li>
             <p>NEW</p>
-            <input type="button" value="buy-BOSCHBFG 6000">
-            <input type="button" value="bookmark-BOSCHBFG 6000">
+            <img src="image" width="144" height="128" alt="BOSCHBFG 6000">
             <h2>Перфоратор BOSCHBFG 6000</h2>
             <p><s>30500 Р.</s></p>
             <a href="blank.html">25500 Р.</a>
@@ -202,7 +195,7 @@
 
     <ul>
         <li>
-            <p>1</p>
+            <a href="blank.html">1</a>
         </li>
         <li>
             <a href="blank.html">2</a>
@@ -276,11 +269,10 @@
 
 
   <section id="modal-add-to-cart">
-    <input type="button" name="close-window" value="x">
-    <img src="image" width="66" height="66" alt="close-window">
+    <button name="close-window" value="x">Закрыть</button>
     <p>Товар добавлен в корзину!</p>
     <a href="index.html">ОФОРМИТЬ ЗАКАЗ</a>
-    <input type="button" value="ПРОДОЛЖИТЬ ПОКУПКИ">
+    <button value="ПРОДОЛЖИТЬ ПОКУПКИ">ПРОДОЛЖИТЬ ПОКУПКИ</button>
 
   </section>  
 
